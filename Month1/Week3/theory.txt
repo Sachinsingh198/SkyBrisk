@@ -1,0 +1,40 @@
+============================================================
+WEEK 3 SUMMARY: NUMPY AND PANDAS FOR DATA MANIPULATION
+Student Name: Sachin Singh
+Date: January 2026
+============================================================
+
+1. NUMPY (NUMERICAL PYTHON)
+---------------------------
+NumPy is the fundamental package for scientific computing in Python.
+- ND-ARRAYS: The core object is the N-dimensional array, which is much 
+  faster and more memory-efficient than Python lists.
+- BROADCASTING: Allows NumPy to perform arithmetic operations on arrays 
+  of different shapes without explicit loops.
+- VECTORIZATION: The process of performing operations on entire arrays 
+  rather than individual elements, leading to high performance.
+
+2. PANDAS (DATA ANALYSIS LIBRARY)
+---------------------------------
+Pandas provides high-performance, easy-to-use data structures.
+- SERIES: A one-dimensional labeled array capable of holding any data type.
+- DATAFRAMES: A two-dimensional, size-mutable, tabular data structure 
+  (like a spreadsheet or SQL table).
+- INDEXING: 
+    * .loc: Accesses data by label (row/column names).
+    * .iloc: Accesses data by integer position (index number).
+
+3. DATA AGGREGATION AND GROUPING
+--------------------------------
+The "Split-Apply-Combine" strategy is used to analyze datasets:
+- SPLIT: Breaking data into groups (e.g., by Department).
+- APPLY: Calculating a statistic (e.g., Mean, Sum, or Count).
+- COMBINE: Merging the results into a new data structure.
+
+4. DATA CLEANING (CLIENT PROJECT)
+---------------------------------
+Key techniques learned:
+- HANDLING MISSING VALUES: Using .fillna() to replace nulls or 
+  .dropna() to remove them.
+- AGGREGATION: Using .groupby() and .agg() to summarize complex data.
+============================================================

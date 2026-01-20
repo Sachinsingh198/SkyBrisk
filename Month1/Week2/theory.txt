@@ -1,0 +1,56 @@
+============================================================
+WEEK 2 SUMMARY: DATA STRUCTURES AND FUNCTIONS
+Student Name: Sachin Singh
+Course: Python for Data Science
+============================================================
+
+1. DATA STRUCTURES (THE FOUR PILLARS)
+-------------------------------------
+Python uses four primary built-in data structures to organize and 
+store data collections:
+
+A. LISTS: Ordered and mutable (changeable) sequences. 
+   - Syntax: [1, 2, 3]
+   - Use Case: Storing items where order matters and values change.
+
+B. TUPLES: Ordered and immutable (unchangeable).
+   - Syntax: (1, 2, 3)
+   - Use Case: Fixed data like GPS coordinates or database records.
+
+C. DICTIONARIES: Unordered collections of key-value pairs.
+   - Syntax: {"id": 101, "name": "Alice"}
+   - Use Case: Fast data retrieval using unique identifiers.
+
+D. SETS: Unordered collections of unique elements.
+   - Syntax: {1, 2, 3}
+   - Use Case: Removing duplicates and performing math operations 
+     like unions or intersections.
+
+2. FUNCTIONS AND SCOPE
+----------------------
+- FUNCTIONS (def): Defined blocks of reusable code. They help in 
+  modularizing logic and making the script readable.
+- LAMBDA FUNCTIONS: Anonymous, one-line functions used for short-term 
+  tasks, often used with filtering or mapping data.
+- RECURSION: A process where a function calls itself to solve a 
+  problem by breaking it into smaller sub-problems. It requires 
+  a "base case" to stop the loop.
+
+3. LIST COMPREHENSIONS
+----------------------
+List comprehension provides a concise way to create lists. It 
+combines the 'for' loop and the creation of new elements into a 
+single line.
+- Example: [x**2 for x in range(10) if x % 2 == 0]
+- Benefit: It is more computationally efficient and readable than 
+  standard multi-line loops.
+
+4. DATA CLEANING CONCEPTS (CLIENT PROJECT)
+------------------------------------------
+For the client project, the following logic was applied:
+- DUPLICATE REMOVAL: Converting lists to sets to ensure uniqueness.
+- NORMALIZATION: Using string methods like .strip() and .lower() 
+  to ensure data consistency.
+- FILTERING: Using conditional logic to remove null values (None) 
+  or empty strings that could break future data analysis.
+============================================================

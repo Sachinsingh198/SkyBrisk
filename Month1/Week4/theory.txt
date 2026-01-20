@@ -1,0 +1,42 @@
+============================================================
+WEEK 4 SUMMARY: DATA VISUALIZATION (MATPLOTLIB & SEABORN)
+Student Name: [Your Name]
+Date: January 2026
+============================================================
+
+1. MATPLOTLIB: THE FOUNDATION
+-----------------------------
+Matplotlib is the "grandfather" of Python plotting. It provides 
+total control over every element of a figure.
+- PYPLOT: The state-based interface (plt) used for simple plotting.
+- FIGURES & AXES: A 'Figure' is the entire window/page; 'Axes' is 
+  the actual area where the data is plotted.
+- KEY PLOTS: Line plots, bar charts, and pie charts.
+
+2. SEABORN: STATISTICAL VISUALIZATION
+-------------------------------------
+Built on top of Matplotlib, Seaborn integrates closely with Pandas 
+DataFrames and provides high-level interfaces for attractive charts.
+- HEATMAPS: Used to visualize matrix-like data, specifically 
+  correlation matrices to see how variables relate.
+- PAIRPLOTS: Automatically creates a grid of scatter plots for every 
+  pair of features in a dataset. Excellent for finding clusters.
+- THEMES: Easily change the aesthetic (e.g., sns.set_theme(style="darkgrid")).
+
+3. EXPLORATORY DATA ANALYSIS (EDA) THROUGH VISUALS
+--------------------------------------------------
+- DISTRIBUTION: Histograms and KDE (Kernel Density Estimate) plots 
+  show where values are concentrated.
+- RELATIONSHIPS: Scatter plots help identify if two variables have 
+  a linear or non-linear correlation.
+- OUTLIERS: Box plots (Whisker plots) are the best tool for identifying 
+  data points that fall significantly outside the normal range.
+
+4. CLIENT PROJECT: DASHBOARD LOGIC
+----------------------------------
+For the project, the following steps were implemented:
+- DATA LOADING: Importing features from a dataset.
+- CORRELATION ANALYSIS: Using a heatmap to find features to drop.
+- FEATURE COMPARISON: Using scatter plots and histograms to understand 
+  how features interact.
+============================================================

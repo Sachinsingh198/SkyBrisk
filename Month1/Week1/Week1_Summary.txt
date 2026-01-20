@@ -1,0 +1,28 @@
+
+Name: Sachin Singh
+Internship: Skybrisk Data Science Internship
+Subject: Week 1 Summary - Python Fundamentals
+
+1. Variables & Data Types
+Variables act as containers for storing data values. In Python, variables are dynamically typed.
+- Integers (int): Whole numbers.
+- Floats (float): Decimal numbers.
+- Strings (str): Text sequences.
+- Booleans (bool): True/False values.
+
+2. Operators
+Operators are special symbols used to perform computations.
+- Arithmetic: +, -, *, /.
+- Comparison: ==, >, <.
+- Logical: and, or, not.
+
+3. Input/Output (I/O)
+- Input: input() captures data as a string.
+- Output: print() displays results. F-strings allow embedding variables.
+
+4. Conditional Statements
+- If-Elif-Else: Executes code blocks only when specific conditions are met. Essential for logic branching.
+
+5. Loops (Iteration)
+- For Loop: Iterates over a sequence (known number of iterations).
+- While Loop: Runs continuously as long as a condition remains True.
